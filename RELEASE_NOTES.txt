@@ -1,0 +1,91 @@
+REV3 - Remote Control of Your EV3
+Copyright 2016, Bryan Walsh
+All Rights Reserved
+Team: BPWALSH
+
+REV3 - Remote Control of Your EV3
+=================================
+
+The following table denotes requirements addressed in to current release:
+
+Task                                        Requirements Addressed
+----                                        ----------------------
+-Drive control screen UI implemented and    B.2.1,A.2.2,A.2.3
+    tested 
+-Protocol processing implemented with unit  B.3.1,B.3.2
+    tests(Transmit Command Use Case)
+-Start up use case implemented and tested   B.1.1
+-Turn command (Gyro) implemented and        B.2.5
+    tested
+-Set power level (GUI) implemented and      B.2.1
+    tested
+-Turn command (GUI) implemented and tested  A.2.2
+-Display Delta Heading Use Case             A.2.3, A.3.3
+    implemented and tested
+-Disconnect Use Case implemented and        A.1.2
+    tested
+
+
+Final Release - 5/4/16
+----------------------
+
+The following tasks were implemented during the final release process:
+
+- Display delta heading use case implemented and tested.
+- Disconnect exception use case implemented and tested.
+- Added logic to transition between sensor and GUI based turns.
+- Added visual indicators of current application state:
+    - Add text to GUI to display current power level and turn rate.
+    - GUI buttons are now highlighted when pressed.
+- Final release testing conducted according to Requirements Verification Plan.
+
+Please watch https://youtu.be/r-sQPVptqf8 for a demostration of this final 
+release.
+
+
+Please see README.txt for compiling and installation instructions.
+
+
+
+Beta Release - 4/15/16
+----------------------
+
+The following tasks were implemented for this beta release:
+
+- Drive control screen UI finalized and implemented
+- Protocol processing implemented and tests developed(Transmit Command Use Case) 
+- Start up use case implemented and tests developed
+- Turn command (Gyro) implemented and tests developed
+- Set power level (GUI) implemented and tests developed
+- Turn command (GUI) implemented and tests developed
+- Beta release testing conducted according to Requirements Verification Plan.
+
+Please watch https://youtu.be/-PQl14cFRwc for demostration of this beta release.
+
+Please see README.txt for compiling and installation instructions.
+
+
+Alpha Release
+-------------
+
+The following tasks were implemented for this alpha release:
+
+- Initial Drive Control Screen UI Developed
+- Drive Control UI Activity Callbacks Implemented
+- Configuration UI Dialog Implemented
+- Command Processor Stubbed Out - Command Processor will convert gui commands 
+    and sensor tun commands (tilting phone) to EV3 commands and send the 
+    commands to the protocol processor.  
+- Protocol Processor Stubbed Out - able to receive commmands but currently does
+    not do anything with them
+- Snazzy new REV3 aplication icon developed and is installed by default.
+- About Dialog with author and license information implemented.
+
+Please watch https://youtu.be/UCkHPJnm1hw for 
+demostration of this alpha release
+. 
+Please see INSTALL.txt for compiling and installation instructions.
+
+
+
+

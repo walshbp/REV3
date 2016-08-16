@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+//
+// REV3 Project
+// Copyright 2016, - All Rights Reserved
+//
+// Team BPWALSH
+//
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.arizona.ece573.bpwalsh.rev3">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/lego"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".REV3Activity" android:screenOrientation="landscape" android:imeOptions="flagNoExtractUi" >
+        <!-- <activity android:name=".REV3Activity" android:configChanges="orientation" > -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".REV3Preferences" >
+
+        </activity>
+    </application>
+
+</manifest>

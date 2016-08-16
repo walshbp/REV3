@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+//
+// REV3 Project
+// Copyright 2016, - All Rights Reserved
+//
+// Team BPWALSH
+//
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Changes will not take affect until next application restart." >
+    <EditTextPreference android:title="IP Address"
+        android:key="ip_address"
+        android:summary="Default IP Address of the EV3 to connect to"
+        android:digits="1234567890."
+        android:inputType="number" />
+    <EditTextPreference android:title="Port"
+        android:key="port"
+        android:summary="Default port of the EV3 to connect to"
+        android:digits="1234567890."
+        android:inputType="number" />
+    <CheckBoxPreference android:title="Log Debug Information"
+        android:defaultValue="true"
+        android:summary="Debug information will be logged to file and saved to external storage."
+        android:key="debugInfoEnabled" />
+    </PreferenceCategory>
+</PreferenceScreen>

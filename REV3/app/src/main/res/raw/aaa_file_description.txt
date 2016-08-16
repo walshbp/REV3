@@ -1,0 +1,17 @@
+//
+// REV3 Project
+// Copyright 2016, - All Rights Reserved
+//
+// Team BPWALSH
+//
+
+This directory contains files used by the unit test framework. They contain recorded sensor data and
+outputs from the reference turn filter implementation.Files are formatted as follows:
+
+Column 1: Timestamp (nano seconds)
+Column 2: sensor type (1 = accelerometer, 4 = gyro)
+Column 3: sensor value 0        see http://developer.android.com/reference/android/hardware/SensorEvent.html#values
+Column 4: sensor value 1
+Column 5: sensor value 2
+Column 6: reference filter - rotation angle estimate
+Column 7: reference filter - turn command estimate

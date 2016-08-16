@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+//
+// REV3 Project
+// Copyright 2016, - All Rights Reserved
+//
+// Team BPWALSH
+//
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_about_rev3"
+        android:orderInCategory="100"
+        android:title="about REV3"/>
+    <item
+        android:id="@+id/action_simulate_disconnect"
+        android:orderInCategory="2"
+        android:title="simulate Disconnect"/>
+    <item
+        android:id="@+id/action_rev3_preferences"
+        android:orderInCategory="1"
+        android:title="REV3 Preferences"/>
+
+</menu>
