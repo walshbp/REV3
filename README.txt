@@ -2,8 +2,6 @@ REV3 - Remote Control of Your EV3
 Copyright 2016, Bryan Walsh
 All Rights Reserved
 
-Team: BPWALSH
-
 Device Requirements:
 --------------------
 This application was developed and tested under android marshmallow.
@@ -15,20 +13,20 @@ Installing Application
 ----------------------
 These directions assume you are installing from a linux/mac based os.
 
-1) Set up your build environment
+0) Set up your build environment
 
     Please enure the android sdk platform-tools/ and tools/ directory is in your 
     path, set the ANDROID_HOME environment variable to point to your android SDK.  
     For esample under linux if you are using bash:
 
-    export ANDROID_HOME=/home/bwalsh/Android/Sdk
-    export PATH=${PATH}:/home/bwalsh/Android/Sdk/platform-tools/:/home/bwalsh/Android/Sdk/tools/
+    export ANDROID_HOME=/home/<user name>/Android/Sdk
+    export PATH=${PATH}:/home/<user name>/Android/Sdk/platform-tools/:/home/bwalsh/Android/Sdk/tools/
 
-1) Checkout the REV3 project from svn:
+1) Checkout the REV3 project from git
 
-    svn checkout https://subversion.engr.arizona.edu/svn/jms/ece473-573-2016S/tags/bpwalsh/beta bpwalsh_beta
+    git clone https://github.com/walshbp/REV3.git
 
-2) cd bpwalsh_beta/REV3
+2) cd REV3/REV3
   
 3) Build the application 
 

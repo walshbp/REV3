@@ -1,7 +1,6 @@
 REV3 - Remote Control of Your EV3
 Copyright 2016, Bryan Walsh
 All Rights Reserved
-Team: BPWALSH
 
 REV3 - Remote Control of Your EV3
 =================================
